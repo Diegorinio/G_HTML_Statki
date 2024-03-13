@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #game_box {
+          display: grid;
+          grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+        }
+        .box_item {
+            height: 100px;
+          background-color: rgb(57, 180, 189);
+          border: 2px solid rgb(0, 0, 0);
+          font-size: 30px;
+          text-align: center;
+          color: white;
+        }
+        .restart{
+          height: 50px;
+          font-size: 30px;
+          text-align: center;
+        }
+        #restartBtn{
+          background-color: rgb(57, 180, 189);
+          width: 100;
+          color:black;
+        }
+        #restartBtn:disabled{
+          background-color: black;
+          color:red;
+        }
+        #gamestate{
+          text-align: center;
+        }
+
+        </style>
+</head>
+<body>
+    <div id="gameState"></div>
+    <div id="game_box">
+      </div> 
+    <script src="./main.js"></script>
+</body>
+</html>
